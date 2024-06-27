@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+
+body {
+  background-color: black;
+}
+.header {
+  text-shadow: 3px 3px 0 rgb(116, 5, 5), 6px 6px 0 rgb(150, 9, 9),
+    9px 9px rgb(85, 9, 9) 12px 12px 0 rgb(60, 3, 3);
+   font-family: Haettenschweiler, 'Arial Bold', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: rgb(116, 5, 5);
+  animation: shadows 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+  font-size: 1.5rem;
+}
+
+
+h1{
+  color: red;
+  text-align: center;
+
+}
+
+@keyframes shadows {
+0% {
+  text-shadow: none;
+}
+10% {
+  transform: translate(-3px, -3px);
+  text-shadow: 2px 2px 0 rgb(116, 5, 5);
+}
+20% {
+    transform: translate(-6px, -6px);
+    text-shadow: 2px 2px 0 rgb(116, 5, 5),
+      2px 2px 0 white;
+  }
+  30% {
+    transform: translate(-9px, -9px);
+    text-shadow: 2px 2px 0 rgb(116, 5, 5),
+     3px 3px white;
+  }
+  40% {
+    transform: translate(-12px, -12px);
+    text-shadow: 2px 2px 0  rgb(150, 9, 9)
+      3px 3px 0  rgb(116, 5, 5), 
+      4px 4px 0 white;
+  }
+  50% {
+    transform: translate(-12px, -12px);
+    text-shadow: 2px 2px 0 rgb(150, 9, 9), 
+      3px 3px 0   rgb(85, 9, 9),
+      4px 4px 0 white;
+  }
+  60% {
+    text-shadow: 6px 6px 0  rgb(150, 9, 9), 
+      3px 3px 0 rgb(116, 5, 5), 3px 3px  
+      4px 4px 0 white;
+  }
+  70% {
+    text-shadow: 2px 2px 0  rgb(116, 5, 5),
+       3px 3px white;
+  }
+  80% {
+    text-shadow: 2px 2px 0  rgb(116, 5, 5)
+      2px 2px 0 rgb(85, 9, 9);
+  }
+  90% {
+    text-shadow: 2px 2px 0 rgb(116, 5, 5);
+  }
+100% {
+  text-shadow: none;
+}
+}
+
+.pics {
+height: 50vh;
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h3, p {
+  color: red;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }
+ .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Cards {
+ width: 18rem;
+  margin: 3rem;
+   border: 5px solid red;
+    color: red;
+
+}
