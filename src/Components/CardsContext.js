@@ -9,26 +9,34 @@ const CardsProvider = function ({ children })  {
     {
       id: 1,
       title: 'favorite games',
-      text: 'Example of where you can store your favorite links ot games or build your own!',
-    src: '/Roblox.png'
+      text: 'Play your favorite games or build your own!',
+    src: '/Roblox.png',
+    to: '/game',
+    link:  'Play Games',
     },
     {
         id: 2,
         title: 'Cool Movies',
-        text: 'Example of where you can store your favorite links ot games or build your own!',
-      src: '/Roblox.png'
+        text: 'Watch your favorite movies here!',
+      src: '/DiaryOfWhimpyKid.png',
+      link: 'Watch A Movie',
+      to: '/movie',
+      link:  'Watch Now',
       },
       {
         id: 3,
         title: 'Sweet Shows',
-        text: 'Example of where you can store your favorite links ot games or build your own!',
-      src: '/Roblox.png'
+        text: 'Binge your favorite shows.',
+      src: '/Ninjago.png',
+      to: '/show',
+      link: 'Binge A Show'
       },
       {
         id: 4,
-        title: 'Music',
-        text: 'Example of where you can store your favorite links ot games or build your own!',
-      src: '/Roblox.png'
+        title: 'Loud Music',
+        text: 'Listen to your favorite playlists.',
+      src: '/Roblox.png',
+      link: 'Play Songs'
       },
   
     // Add more cards here...

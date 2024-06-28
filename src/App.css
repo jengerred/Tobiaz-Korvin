@@ -22,8 +22,29 @@ body {
   letter-spacing: 0.4rem;
   font-size: 1.5rem;
 }
-
-
+.header2 {
+  margin: 0;
+  position: relative;
+  top: 5%;
+min-height: 5rem;
+  text-shadow: 3px 3px 0 rgb(116, 5, 5), 6px 6px 0 rgb(150, 9, 9),
+  9px 9px rgb(85, 9, 9) 12px 12px 0 rgb(60, 3, 3);
+ font-family: Haettenschweiler, 'Arial Bold', sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+font-size: calc(2rem + 5vw);
+text-align: center;
+margin: 0;
+margin-top: 1.5rem;
+color: rgb(116, 5, 5);
+animation: shadows 1.2s ease-in infinite;
+letter-spacing: 0.4rem;
+font-size: 1.5rem;
+}
+.text {
+ height: 5rem;
+ position: relative;
+}
 h1{
   color: red;
   text-align: center;
@@ -82,11 +103,10 @@ h1{
 }
 
 .pics {
-height: 50vh;
-width: 100%;
-display: block;
-margin-left: auto;
-margin-right: auto;
+  width: 100%; 
+  height: 43.8vh; 
+  object-fit: cover; 
+  overflow: hidden;
 }
 h3, p {
   color: red;
@@ -103,10 +123,32 @@ h3, p {
   flex-wrap: wrap;
   justify-content: center;
 }
-.Cards {
+.Cards, .Games {
  width: 18rem;
   margin: 3rem;
    border: 5px solid red;
     color: red;
+}
 
+.image {
+  height: 100%;
+  border-bottom: 5px solid transparent;
+    border-image: linear-gradient(0.25turn, white, red,red,white,  red, red);
+    border-image-slice: 1;
+    width:100%;
+    border-radius: 0;
+    width: 100%;
+}
+.carousel {
+  border: 5px solid transparent;
+  border-image: linear-gradient(0.25turn, white, red,red,white,  red, red);
+  border-image-slice: 1;
+border-radius: 2rem;
+height: 45vh;
+width: 90vw;
+}
+.carousel-item {
+  width: 90vw; 
+  height: 100%; 
+  object-fit: contain; 
 }
