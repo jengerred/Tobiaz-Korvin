@@ -33,6 +33,14 @@ const CardsProvider = function ({ children })  {
       },
       {
         id: 4,
+        title: 'Family Guy',
+        text: 'Family Guy Trivia and Quiz',
+      src: '/FamilyGuy.png',
+      to: 'https://family-fwxwwgb25-jengerreds-projects.vercel.app/',
+      link: 'Take Quiz'
+      },
+      {
+        id: 5,
         title: 'Loud Music',
         text: 'Listen to your favorite playlists.',
       src: '/Roblox.png',

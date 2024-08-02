@@ -132,12 +132,13 @@ h3, p {
 
 .image {
   height: 100%;
+  max-height: 9rem;
   border-bottom: 5px solid transparent;
     border-image: linear-gradient(0.25turn, white, red,red,white,  red, red);
     border-image-slice: 1;
     width:100%;
     border-radius: 0;
-    width: 100%;
+   
 }
 .carousel {
   border: 5px solid transparent;
