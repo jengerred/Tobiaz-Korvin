@@ -36,7 +36,7 @@ const CardsProvider = function ({ children })  {
         title: 'Family Guy',
         text: 'Family Guy Trivia and Quiz',
       src: '/FamilyGuy.png',
-      to: 'https://family-fwxwwgb25-jengerreds-projects.vercel.app/',
+      to: 'https://family-guy.vercel.app/',
       link: 'Take Quiz'
       },
       {
